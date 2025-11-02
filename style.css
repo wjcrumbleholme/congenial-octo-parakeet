@@ -1,0 +1,35 @@
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    background-color: darkseagreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: coral;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn.active {
+    background-color: darkorange;
+    color: white;
+}
